@@ -1,5 +1,11 @@
 # Simple Template for Writing/Running ES6 (using `babel`)
 
+### Getting Started
+- Fork the repo
+- clone the repo and `cd` into basic-es6-template`
+- run `yarn install`
+- run `yarn start` and you should see 'hello world' printed to the console 
+
 What this template does to allow us to run ES6:
 - installs `babel-cli` and `babel-preset-es2015`
 - has a custom `yarn start` script which runs: `babel-node --presets es2015 file2.js` (note the use of `babel-node` instead of `node`)
