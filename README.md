@@ -14,3 +14,5 @@
 - Run `node file2.js` and you will see an error, because `file2.js` is using the ES6 import syntax
 - Run `yarn start` instead, and everything will run fine.
 
+---
+Copyright (c) 2018 ThoughtWorks. For personal use and training purposes only; not to be copied or distributed without further approval.
