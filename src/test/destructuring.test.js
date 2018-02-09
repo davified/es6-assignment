@@ -1,11 +1,11 @@
-import { splitNames } from "../destructuring";
+import { getFirstName } from "../destructuring";
 
 describe("Destructuring", () => {
   it("...", () => {
     const expectedFirstName = "tom";
     const expectedLastName = "cruise";
-    const [actualFirstName, actualLastName] = splitNames("tom", "cruise");
+    const actualFirstName = getFirstName(["tom", "cruise"]);
 
-    expect(actual).toEqual(expected);
+    expect(actualFirstName).toEqual(expectedFirstName);
   });
 });
