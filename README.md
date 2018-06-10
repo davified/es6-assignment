@@ -3,8 +3,8 @@
 ### Getting Started
 - Fork the repo
 - clone the repo and `cd` into directory 
-- To install dependencies, run `yarn install`
-- To run tests in watch mode, run `yarn test:watch`
+- To install dependencies, run `npm install`
+- To run tests in watch mode, run `npm run test:watch`
 
 Instructions:
 - Use ES6 syntax (e.g. arrow functions, `let`, `const`, ES6 module import/export syntax, etc)
